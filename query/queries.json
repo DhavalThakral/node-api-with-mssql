@@ -1,5 +1,5 @@
 {
-    "getAllData" : "SELECT * FROM [dbo].[Employee]",
+    "getAllEmployees" : "SELECT * FROM [dbo].[Employee]",
     "addNewEmployee" : "Insert INTO [dbo].[Employee](Name,City) Values (@name,@city)",
     "deleteEmployee" : "DELETE FROM [dbo].[Employee] WHERE Id = @id",
     "updateEmployee" : "UPDATE [dbo].[Employee] SET City = @city, Name = @name WHERE Id = @id",
